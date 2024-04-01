@@ -7,46 +7,27 @@
     </head>
 
     <body>
-        <br>
-        testing
-        <br>
-        testing
-        <br>
-
-        <div class="function_test_container">
-            <p id="function_test_text">Testing function output</p> 
-
-        </div>
-
         <div class="RPS_container">
 
             <div class="player_choice_container">
-                <p id="player_choice_text">This is where the player choice will go.</p>
-                <input list="player_RPS_choice">
-                    <datalist id="player_RPS_choice">
-                        <option value="Rock">
-                        <option value="Paper">
-                        <option value="Scissors">
-                    </datalist>
-                </input>
+                <p id="player_choice_text">Please select Rock, Paper, or Scissors.</p>
+                   <div class="PlayAndSelect">
+                        <select id="player_RPS_choice">
+                            <option value="Rock">Rock &#x1F91B;</option>
+                            <option value="Paper">Paper &#x270B;</option>
+                            <option value="Scissors">Scissors &#x270C;</option>
+                        </select>
 
-            </div>
-
-
-            <div class="computer_choice_container">
-                <p id="computer_choice_text">This is where the computer choice will go.</p> 
-
+                        <button id="player_RPS_button">Play Game</button>
+                    </div>
             </div>
 
             
 
 
-            <button id="player_RPS_button">Play Game</button>
-
-
 
             <div class ="RPS_result">
-                <p id ="RPS_result_text">This is where the RPS result will go.</p> 
+                <p id ="RPS_result_text">&#x261D; Make your selection &#x261D;</p> 
 
             </div>
 
