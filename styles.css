@@ -49,3 +49,79 @@ body{height:100vh;}
     height: auto;
     font-size: 24px;
 }
+
+
+.FirstToFive{
+    padding: 10px 10px 30px 10px;
+}
+
+.score_container{
+    display: flex;
+    border: solid black;
+    height: 200px;
+    width: 40%;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.player_score_container{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.player_score_header{
+    display:flex;
+    border-bottom: solid black;
+    border-right: solid black;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+
+.computer_score_container{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.computer_score_header{
+    display:flex;
+    border-bottom: solid black;
+    border-left: solid black;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+#player_score_text{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-size: 3em;
+    border-right: solid black;
+    justify-content: center;
+}
+
+#computer_score_text{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-size: 3em;
+    border-left: solid black;
+    justify-content: center;
+}
+
+#winner_announcement{
+    padding: 30px 10px 10px 10px;
+}
